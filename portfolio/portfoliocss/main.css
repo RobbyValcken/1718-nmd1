@@ -1,0 +1,116 @@
+body{
+    background: url("../images/web.png")  center top;
+    
+    color:#000000;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    h1{
+        font-weight: 500;
+        font-size:  48px;
+      }
+      h2{
+        font-weight: 500;
+        font-size:  24px;
+         }
+
+
+
+h1,h2,h3,h4,h5,h6 {
+  font-family:Helvetica;
+}
+img{
+  width: 50%;
+  height: auto;
+}
+}
+
+/*
+Container
+
+maximum width
+center on page
+*/
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+ 
+    background:rgba(183,28,28,1);
+ }
+ 
+.col-12,.col-11,.col-10,.col-9,.col-8,.col-7,.col-6,.col-5,.col-4,.col-3,.col-2,.col-1{
+    float: left;
+}
+.col-12{
+    
+    width: 100%;
+}
+.col-11{
+    
+    width: 91.66667%;
+}
+.col-10{
+    
+    width: 83.33333%;
+}
+.col-9{
+    
+    width: 75%;
+}
+.col-8{
+    
+    width: 66.66667%;
+}
+.col-7{
+    
+    width: 58.33333%;
+}
+.col-6{
+    
+    width: 50%;
+}
+.col-5{
+    
+    width: 41.66667%;
+}
+.col-4{
+    
+    width: 33.33333%;
+}
+.col-3{
+    
+    width: 25%;
+    
+}
+.col-2{
+    
+    width: 16.66667%;
+}.col-1{
+    
+    width: 8.33333%;
+}
+
+ /*
+ Card
+ 
+ during debug > fixed height
+ */
+ .card {
+    
+     height: 400px;
+     box-sizing: border-box;
+ 
+ 
+ 
+     background:rgb(148, 201, 245);
+     border: 8px solid rgb(255, 255, 255);
+ }
+ .card-img >img {
+     object-fit: cover;
+     height: 200px;
+     width: 100%
+ }
+ .card-body {
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
